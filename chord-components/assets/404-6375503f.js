@@ -1,0 +1,1 @@
+import{_ as e,a as o,o as s,j as c}from"./index-1d2010ea.js";const n={};function r(a,_){const t=o("a-result");return s(),c(t,{status:"404",title:"404","sub-title":"抱歉，您访问的页面不存在"})}const u=e(n,[["render",r]]);export{u as default};

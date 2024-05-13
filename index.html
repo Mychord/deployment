@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="crown.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>项目部署</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(30, 185, 250);
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .header {
+        height: 60px;
+        line-height: 60px;
+        font-size: 18px;
+        font-weight: bolder;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(80, 0, 255);
+        border-bottom: 2px solid rgb(0, 0, 0);
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 100px 0px 100px;
+      }
+
+      .card {
+        height: 300px;
+        width: 240px;
+        background-color: rgb(255, 255, 255);
+        margin: 20px 10px;
+      }
+
+      .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 1px 1px 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      .title {
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+        font-weight: bolder;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        background-color: rgb(144, 238, 144);
+        text-align: center;
+      }
+
+      .introduction {
+        padding: 10px;
+      }
+
+      .text {
+        display: -webkit-box;
+        line-clamp: 8;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">项目部署界面</div>
+    <div class="container">
+      <div class="card">
+        <div class="title">
+          <a href="./lowcode"> lowcode </a>
+        </div>
+        <div class="introduction">
+          <div class="text">
+            本项目旨在开发一个校园内部低代码信息汇总平台。该平台允许管理员定义数据模式，进行表单设计并发布，在用户填
+            写表单的基础上加入数据回填功能，实现表单数据收集，最终完成数据汇总展示。
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title">
+          <a href="./chord-components"> chord-components </a>
+        </div>
+        <div class="introduction">
+          <div class="text">包含多种组件的 Vue3 组件库</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title">
+          <a href="./documents"> documents </a>
+        </div>
+        <div class="introduction">
+          <div class="text">网络文档分享展示界面</div>
+        </div>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>

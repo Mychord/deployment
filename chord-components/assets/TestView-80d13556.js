@@ -1,0 +1,1 @@
+import{C as s}from"./ChordCarousel-13fc935c.js";import{o as r,j as t,u as e}from"./index-1d2010ea.js";const l={__name:"TestView",setup(o){let a=[{img:"src/assets/map1.png",url:"#"},{img:"src/assets/map2.png",url:"#"},{img:"src/assets/map3.png",url:"#"}];return(p,u)=>(r(),t(s,{data:e(a),autoplay:!0},null,8,["data"]))}};export{l as default};
